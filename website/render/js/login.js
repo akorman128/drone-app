@@ -1,7 +1,3 @@
-// const auth = firebase.auth();
-// auth.signInWithEmailAndPassword(email, pass);
-// auth.createUserWithEmailAndPassword(email, pass);
-// auth.onAuthStateChange(firebaseUser => {});
 
 
 (function() {
@@ -12,7 +8,6 @@
     const login = document.getElementById('login');
     const signUp = document.getElementById('signUp');
 
-    console.log(emailTxt, password, login, signUp);
 
     //add login event
     login.addEventListener('click', e => {
@@ -38,7 +33,6 @@
     firebase.auth().onAuthStateChanged(firebaseUser => {
         if (firebaseUser){
             console.log(firebaseUser);
-            logOut.classList.remove('hide');
         } else{
             console.log('Not logged in.');
         }
