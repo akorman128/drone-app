@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/deployment.css">
+    <title>Deployment</title>
+</head>
+
+<body>
+<script src="/__/firebase/7.14.2/firebase-app.js"></script>
+<script src="/__/firebase/7.14.2/firebase-analytics.js"></script>
+<script src="/__/firebase/7.14.2/firebase-auth.js"></script>
+<script src="/__/firebase/7.14.2/firebase-firestore.js"></script>
+<script defer src="/__/firebase/init.js"></script>
+<script src="js/login.js"></script>
+
+<div id="container">
+
+    <div id="header">
+        <!-- put in logo + sign out button -->
+    </div>
+
+    <div id="nav">
+       <a class="active" href="deployment.html">Deployment</a>
+        <a href="index.html">Activity</a>
+    </div>
+
+    <div id="homeBase">
+        <form>
+            <label for="home">Home Base: </label>
+            <input type="text" id="home" name="home" value="">
+            <input type="submit" value="Set">
+        </form>
+    </div>
+
+    <div id="log">
+        <h2>Requests</h2>
+        <table style="width: 100%">
+            <tr><th>Time</th>
+                <th>Client Name</th>
+                <th>Location</th>
+                <th>Destination</th>
+                <th>Duration</th>
+                <th>Accept?</th>
+            </tr>
+            <tr>
+                <td>8:54 PM</td>
+                <td>Cornelius Vanderbilt</td>
+                <td>Rand</td>
+                <td>Branscomb</td>
+                <td>3 min</td>
+                <td><label class="switch"><input type="checkbox"><span class="slider"></span></label></td>
+            </tr>
+            <tr>
+                <td>8:55 PM</td>
+                <td>Katie Helman</td>
+                <td>Biomedical Library</td>
+                <td>Murray House</td>
+                <td>7 min</td>
+                <td><label class="switch"><input type="checkbox"><span class="slider"></span></label></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+
+</body>
+</html>
