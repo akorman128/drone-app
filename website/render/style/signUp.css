@@ -9,7 +9,7 @@
     font-size: 16px;
     font-family: arial;
     background-color: white;
-    border: orange 1px solid;
+    border: cornflowerblue 1px solid;
     border-radius: 5px;
 }
 
@@ -22,7 +22,7 @@
     margin-left: 25%;
 
     border: none;
-    border-bottom: orange 1px solid;
+    border-bottom: cornflowerblue 1px solid;
 }
 
 button{
@@ -34,12 +34,12 @@ button{
     font-size: 14px;
     border: black 1px solid;
     color: white;
-    background-color: orange;
+    background-color: cornflowerblue;
 
 }
 
 a{
-    color: cornflowerblue;
+    color: orange;
 }
 
 p{
@@ -48,6 +48,6 @@ p{
 }
 
 .errorMsg{
-    color:cornflowerblue;
+    color:orange;
     font-weight: bold;
 }
